@@ -2,7 +2,7 @@
 title: "this is a test"
 author: "reilly cameron"
 date: "2020 M09 21"
-  pdf_document: default
+output: html_document
 ---
 
 ```{r setup, include=FALSE}
@@ -18,4 +18,13 @@ When you click the **Knit** button a document will be generated that includes bo
 ```{r cars}
 summary(cars)
 ```
+
+this is a basic plot, so that we have made some changes 
+
+```{r plot}
+plot(1:10)
+```
+
+
+
 
