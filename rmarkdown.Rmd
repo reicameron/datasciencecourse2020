@@ -22,7 +22,7 @@ summary(cars)
 this is a basic plot, so that we have made some changes 
 
 ```{r plot}
-plot(1:10)
+plot(1:10, xlab = "one to ten")
 ```
 
 
